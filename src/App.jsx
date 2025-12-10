@@ -7,7 +7,7 @@ import Tutorials from './Tutorials Component/Tutorials'
 import Notes from './Notes Component/Notes'
 import Contact from './ContactComponent/Contact'
 import Login from './LoginComponent/Login'
-import Sign from './signupComponent/sign'
+import SignUP from './CreateAccount/SignUP'
 
 function App() {
   return <>
@@ -23,7 +23,7 @@ function App() {
     <Route path='/notes' element={<Notes/>}></Route>
     <Route path='/contact' element={<Contact/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
-    <Route path='/sign-up' element={<Sign/>}></Route>
+    <Route path='/sign-up' element={<SignUP/>}></Route>
   </Routes>
   </BrowserRouter>
   </>
