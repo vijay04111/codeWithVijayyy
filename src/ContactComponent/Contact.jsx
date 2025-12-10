@@ -116,7 +116,66 @@ function Contact()
     </div>
   </div>
 </div>
+ <div className="container-fluid py-5" style={{ background: "#071019" }}>
+      <div className="container text-white">
 
+        <div className="d-flex justify-content-between flex-wrap"style={{ gap: "40px" }}>
+
+          {/* Main */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Main</h5>
+            <a href="/home" className="text-secondary mb-1" style={{textDecoration:"none"}}>Home</a>
+              <a href="/contact" className="nav-link text-secondary"> Contact</a>
+
+            <p className="text-secondary mb-1">Work With Us</p>
+            <p className="text-secondary mb-1">My Gear</p>
+          </div>
+
+          {/* Learn */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Learn</h5>
+             <a href="/course" className="nav-link text-secondary"> Courses</a>
+             <a href="/totorials" className="nav-link text-secondary"> Tutorials</a>
+             <a href="/notes" className="nav-link text-secondary">Notes</a>
+
+          </div>
+
+          {/* Legal */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Legal</h5>
+            <p className="text-secondary mb-1">Terms</p>
+            <p className="text-secondary mb-1">Privacy</p>
+            <p className="text-secondary mb-1">Refund</p>
+          </div>
+
+          {/* Social */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Social</h5>
+
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-github"></i>
+              <a href="https://github.com/vijay04111" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none">GitHub</a>
+            </div>
+
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-twitter-x"></i>
+              <a href="https://twitter.com/your_username" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Twitter (X)</a>
+            </div>
+
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-youtube"></i>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>YouTube</a>
+            </div>
+
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-facebook"></i>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Facebook</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
     </>

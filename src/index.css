@@ -9,3 +9,14 @@
         
         
       }
+
+.nav-link {
+  color: #6c757d;       /* initial gray color (like text-secondary) */
+  text-decoration: none; /* remove underline */
+  cursor: pointer;
+  transition: color 0.3s; /* smooth hover effect */
+}
+
+.nav-link:hover {
+  color: white;          /* hover pe white */
+}

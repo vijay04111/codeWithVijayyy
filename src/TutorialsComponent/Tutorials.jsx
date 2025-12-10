@@ -12,7 +12,7 @@ import cc from '../assets/TutorialsIMG/ccc.jpeg'
 function Tutorials() {
   return (
     <>
-      <section className="py-5" style={{ background: "#0e1217" }}>
+      <section className="py-5" style={{ background: "#071019" }}>
         <div className="container">
           <h2 className="text-center text-white fw-bold mb-5">Tutorials</h2>
 
@@ -20,7 +20,7 @@ function Tutorials() {
           <div className="d-flex justify-content-center flex-wrap"style={{ gap: "5px" }}>
 
             {/* CARD 1 */}
-            <div className="card text-center p-4"style={{width: "12rem",background: "#11151b",  border: "1px solid #1f232b",borderRadius: "20px"}}>
+            <div className="card text-center mt-3 p-4"style={{width: "12rem",background: "#11151b",  border: "1px solid #1f232b",borderRadius: "20px"}}>
               <img src={ht} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">HTML Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -30,7 +30,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 2 */}
-            <div className="card text-center p-4"style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b",borderRadius: "20px"}}>
+            <div className="card text-center mt-3 p-4"style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b",borderRadius: "20px"}}>
               <img src={cs} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">CSS Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -40,7 +40,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 3 */}
-            <div className="card text-center p-4" style={{width: "12rem",background: "#11151b", border: "1px solid #1f232b",borderRadius: "20px"}}>
+            <div className="card text-center p-4 mt-3" style={{width: "12rem",background: "#11151b", border: "1px solid #1f232b",borderRadius: "20px"}}>
               <img src={javascriptLOGO} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">JavaScript Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -50,7 +50,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 4 */}
-            <div className="card text-center p-4" style={{ width: "12rem", background: "#11151b",border: "1px solid #1f232b",  borderRadius: "20px" }}>
+            <div className="card text-center p-4 mt-3" style={{ width: "12rem", background: "#11151b",border: "1px solid #1f232b",  borderRadius: "20px" }}>
               <img src={snak} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">Python Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -64,7 +64,7 @@ function Tutorials() {
           <div className="d-flex justify-content-center flex-wrap mt-4" style={{ gap: "5px" }}>
 
             {/* CARD 5 */}
-            <div className="card text-center p-4" style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b", borderRadius: "20px"}}>
+            <div className="card text-center p-4 mt-3" style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b", borderRadius: "20px"}}>
               <img src={cp} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">C Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -74,7 +74,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 6 */}
-            <div className="card text-center p-4"style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b", borderRadius: "20px"}}>           
+            <div className="card text-center p-4 mt-3"style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b", borderRadius: "20px"}}>           
              <img src={rc} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">React JS Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -84,7 +84,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 7 */}
-            <div className="card text-center p-4" style={{width: "12rem", background: "#11151b", border: "1px solid #1f232b", borderRadius: "20px"}}>
+            <div className="card text-center p-4 mt-3" style={{width: "12rem", background: "#11151b", border: "1px solid #1f232b", borderRadius: "20px"}}>
               <img src={ja} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">Java Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -94,7 +94,7 @@ function Tutorials() {
             </div>
 
             {/* CARD 8 */}
-            <div className="card text-center p-4" style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b",borderRadius: "20px"}}>
+            <div className="card text-center p-4 mt-3" style={{width: "12rem",background: "#11151b",border: "1px solid #1f232b",borderRadius: "20px"}}>
               <img src={cc} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">C++ Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
@@ -109,64 +109,66 @@ function Tutorials() {
 
         
         {/* Footer Section */}
-        <div className="container-fluid py-5" style={{marginTop:"100px"}}>
-          <div className="container text-white">
+       <div className="container-fluid py-5 mt-5" style={{ background: "#071019" }}>
+      <div className="container text-white">
 
-            <div className="d-flex justify-content-between flex-wrap" style={{ gap: "40px" }}>
+        <div className="d-flex justify-content-between flex-wrap"style={{ gap: "40px" }}>
 
-              {/* Main */}
-              <div style={{ minWidth: "180px" }}>
-                <h5 className="fw-bold mb-3">Main</h5>
-                <p className="text-secondary mb-1">Home</p>
-                <p className="text-secondary mb-1">Contact</p>
-                <p className="text-secondary mb-1">Work With Us</p>
-                <p className="text-secondary mb-1">My Gear</p>
-              </div>
+          {/* Main */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Main</h5>
+            <a href="/home" className="text-secondary mb-1" style={{textDecoration:"none"}}>Home</a>
+              <a href="/contact" className="nav-link text-secondary"> Contact</a>
 
-              {/* Learn */}
-              <div style={{ minWidth: "180px" }}>
-                <h5 className="fw-bold mb-3">Learn</h5>
-                <p className="text-secondary mb-1">Courses</p>
-                <p className="text-secondary mb-1">Tutorials</p>
-                <p className="text-secondary mb-1">Notes</p>
-              </div>
+            <p className="text-secondary mb-1">Work With Us</p>
+            <p className="text-secondary mb-1">My Gear</p>
+          </div>
 
-              {/* Legal */}
-              <div style={{ minWidth: "180px" }}>
-                <h5 className="fw-bold mb-3">Legal</h5>
-                <p className="text-secondary mb-1">Terms</p>
-                <p className="text-secondary mb-1">Privacy</p>
-                <p className="text-secondary mb-1">Refund</p>
-              </div>
+          {/* Learn */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Learn</h5>
+             <a href="/course" className="nav-link text-secondary"> Courses</a>
+             <a href="/totorials" className="nav-link text-secondary"> Tutorials</a>
+             <a href="/notes" className="nav-link text-secondary">Notes</a>
 
-              {/* Social */}
-              <div style={{ minWidth: "180px" }}>
-                <h5 className="fw-bold mb-3">Social</h5>
+          </div>
 
-                <div className="d-flex align-items-center mb-2 gap-2">
-                  <i className="bi bi-github"></i>
-                  <span className="text-secondary">GitHub</span>
-                </div>
+          {/* Legal */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Legal</h5>
+            <p className="text-secondary mb-1">Terms</p>
+            <p className="text-secondary mb-1">Privacy</p>
+            <p className="text-secondary mb-1">Refund</p>
+          </div>
 
-                <div className="d-flex align-items-center mb-2 gap-2">
-                  <i className="bi bi-twitter-x"></i>
-                  <span className="text-secondary">Twitter (X)</span>
-                </div>
+          {/* Social */}
+          <div style={{ minWidth: "180px" }}>
+            <h5 className="fw-bold mb-3">Social</h5>
 
-                <div className="d-flex align-items-center mb-2 gap-2">
-                  <i className="bi bi-youtube"></i>
-                  <span className="text-secondary">YouTube</span>
-                </div>
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-github"></i>
+              <a href="https://github.com/vijay04111" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none">GitHub</a>
+            </div>
 
-                <div className="d-flex align-items-center mb-2 gap-2">
-                  <i className="bi bi-facebook"></i>
-                  <span className="text-secondary">Facebook</span>
-                </div>
-              </div>
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-twitter-x"></i>
+              <a href="https://twitter.com/your_username" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Twitter (X)</a>
+            </div>
 
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-youtube"></i>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>YouTube</a>
+            </div>
+
+            <div className="d-flex align-items-center mb-2 gap-2">
+              <i className="bi bi-facebook"></i>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Facebook</a>
             </div>
           </div>
+
         </div>
+      </div>
+    </div>
       </section>
 
       

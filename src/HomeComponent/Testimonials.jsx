@@ -72,8 +72,9 @@ function Testimonials() {
           {/* Main */}
           <div style={{ minWidth: "180px" }}>
             <h5 className="fw-bold mb-3">Main</h5>
-            <p className="text-secondary mb-1">Home</p>
-            <p className="text-secondary mb-1">Contact</p>
+            <a href="/home" className="text-secondary mb-1" style={{textDecoration:"none"}}>Home</a>
+              <a href="/contact" className="nav-link text-secondary"> Contact</a>
+
             <p className="text-secondary mb-1">Work With Us</p>
             <p className="text-secondary mb-1">My Gear</p>
           </div>
@@ -81,9 +82,10 @@ function Testimonials() {
           {/* Learn */}
           <div style={{ minWidth: "180px" }}>
             <h5 className="fw-bold mb-3">Learn</h5>
-            <p className="text-secondary mb-1">Courses</p>
-            <p className="text-secondary mb-1">Tutorials</p>
-            <p className="text-secondary mb-1">Notes</p>
+             <a href="/course" className="nav-link text-secondary"> Courses</a>
+             <a href="/totorials" className="nav-link text-secondary"> Tutorials</a>
+             <a href="/notes" className="nav-link text-secondary">Notes</a>
+
           </div>
 
           {/* Legal */}
@@ -100,22 +102,22 @@ function Testimonials() {
 
             <div className="d-flex align-items-center mb-2 gap-2">
               <i className="bi bi-github"></i>
-              <span className="text-secondary">GitHub</span>
+              <a href="https://github.com/vijay04111" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none">GitHub</a>
             </div>
 
             <div className="d-flex align-items-center mb-2 gap-2">
               <i className="bi bi-twitter-x"></i>
-              <span className="text-secondary">Twitter (X)</span>
+              <a href="https://twitter.com/your_username" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Twitter (X)</a>
             </div>
 
             <div className="d-flex align-items-center mb-2 gap-2">
               <i className="bi bi-youtube"></i>
-              <span className="text-secondary">YouTube</span>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>YouTube</a>
             </div>
 
             <div className="d-flex align-items-center mb-2 gap-2">
               <i className="bi bi-facebook"></i>
-              <span className="text-secondary">Facebook</span>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-secondary" style={{ textDecoration: 'none' }}>Facebook</a>
             </div>
           </div>
 
