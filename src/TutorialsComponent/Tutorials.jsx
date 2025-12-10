@@ -1,7 +1,7 @@
 import React from "react";
 import ht from '../assets/TutorialsIMG/html.jpeg'
 import cs from '../assets/TutorialsIMG/css.jpeg'
-import js from '../assets/TutorialsIMG/javascript.jpeg'  // match your file exactly
+import javascriptLOGO from "../assets/TutorialsIMG/javaScript.jpeg";
 import snak from '../assets/TutorialsIMG/PH.jpeg'
 import cp from '../assets/TutorialsIMG/c.jpeg'
 import rc from '../assets/TutorialsIMG/react.jpeg'
@@ -41,7 +41,7 @@ function Tutorials() {
 
             {/* CARD 3 */}
             <div className="card text-center p-4" style={{width: "12rem",background: "#11151b", border: "1px solid #1f232b",borderRadius: "20px"}}>
-              <img src={js} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
+              <img src={javascriptLOGO} className="mx-auto mb-3 rounded-5" width={50} height={50}/>
               <h5 className="text-white fw-bold">JavaScript Tutorial</h5>
               <p className="text-secondary mt-2" style={{fontSize:"13px"}}>
                 JavaScript is a lightweight cross-platform language…
