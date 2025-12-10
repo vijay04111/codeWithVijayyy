@@ -1,6 +1,6 @@
 import React from "react";
 import pics from '../assets/loginimg.jpeg'
-function Sign()
+function SignUP()
 {
     return <>
     <div className="d-flex justify-content-center " 
@@ -68,4 +68,4 @@ function Sign()
     </div>
     </>
 }
-export default Sign;
+export default SignUP;
