@@ -23,7 +23,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="mainNavbar">
           <ul className="navbar-nav mx-auto gap-4">
             <li className="nav-item">
-              <Link to='/home' className="nav-link text-white" href="#">Home</Link>
+              <Link to='/home' className="nav-link text-white" >Home</Link>
             </li>
             <li className="nav-item">
               <Link to='/course' className="nav-link text-white" href="#">Courses</Link>
