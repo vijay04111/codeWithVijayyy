@@ -62,5 +62,25 @@
       "username": "sss",
       "password": "sdfgh"
     }
+  ],
+  "Signup": [
+    {
+      "firstName": "Aditi",
+      "lastName": "Patil",
+      "email": "aditip123@gmail.com",
+      "phone": "12345678909",
+      "username": "adii_1104",
+      "password": "adu@1234",
+      "id": "f1da"
+    },
+    {
+      "id": "1d0f",
+      "firstName": "vijay",
+      "lastName": "khot",
+      "email": "vijay123@gmail.com",
+      "phone": "7411472170",
+      "username": "vijay__0411",
+      "password": "vijay123"
+    }
   ]
 }

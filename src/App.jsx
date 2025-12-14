@@ -9,6 +9,7 @@ import Contact from './ContactComponent/Contact'
 import Login from './LoginComponent/Login'
 import SignUP from './CreateAccount/SignUP'
 import Log from './LoginComponent/Log'
+import Sig from './CreateAccount/sig'
 
 function App() {
   return <>
@@ -24,7 +25,7 @@ function App() {
     <Route path='/notes' element={<Notes/>}></Route>
     <Route path='/contact' element={<Contact/>}></Route>
     <Route path='/login' element={<Log/>}></Route>
-    <Route path='/sign-up' element={<SignUP/>}></Route>
+    <Route path='/sign-up' element={<Sig/>}></Route>
   </Routes>
   </BrowserRouter>
   </>
