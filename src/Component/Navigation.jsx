@@ -13,15 +13,15 @@ export default function NavBar() {
 
         <a className="navbar-brand d-flex align-items-center gap-2" href="#">
           <i className="bi bi-code-slash fs-4"></i>
-          <span className="fw-bold fs-4">CodeWithVijayyy</span>
+          <span className="fw-bold fs-4"><Link className="text-white text-decoration-none" to='/home'>CodeWithVijayyy</Link></span>
         </a>
 
         <button  className="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="mainNavbar">
-          <ul className="navbar-nav mx-auto gap-4">
+        <div className="collapse navbar-collapse d-flex justify-content-end  mx-4" id="mainNavbar">
+          <ul className="navbar-nav gap-4">
             <li className="nav-item">
               <Link to='/home' className="nav-link text-white" >Home</Link>
             </li>
@@ -44,10 +44,10 @@ export default function NavBar() {
 
                   
 
-          <div className="d-flex gap-2">
+          {/* <div className="d-flex gap-2">
             <Link to='/login' className="btn btn-outline-light rounded px-4" style={{fontSize:"13px"}}>Login</Link>
             <Link to='/sign-up' className="btn btn-outline-light rounded px-4" style={{fontSize:"13px"}}>Signup</Link> 
-          </div>
+          </div> */}
 
 
         </div>

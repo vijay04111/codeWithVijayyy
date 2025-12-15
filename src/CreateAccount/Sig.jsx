@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
 
+
 export default function Sig() {
   const { register,handleSubmit,reset,formState: { errors }, } = useForm();
 

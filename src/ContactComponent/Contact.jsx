@@ -2,6 +2,7 @@ import React from "react";
 import pic from '../assets/contact.jpeg'
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import Navigation from '../Component/Navigation'
 
 
 
@@ -27,6 +28,7 @@ function Contact()
 
     
     return <>
+    <Navigation/>
     <div style={{ background: "#0e1217", minHeight: "100vh" }}>
   <div className="container py-5">
 

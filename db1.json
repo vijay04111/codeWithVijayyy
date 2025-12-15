@@ -29,38 +29,14 @@
       "phoneNumber": "12345678904",
       "subject": "hiii",
       "message": "employyeee"
-    }
-  ],
-  "Login": [
-    {
-      "username": "Vijayy",
-      "password": 12345457465,
-      "id": "1d9f"
     },
     {
-      "id": "e330",
-      "username": "yogesh",
-      "password": "12345"
-    },
-    {
-      "id": "e761",
-      "username": "yogesh",
-      "password": "45678"
-    },
-    {
-      "id": "194e",
-      "username": "wwd",
-      "password": "12345"
-    },
-    {
-      "id": "8cd4",
-      "username": "yogesh",
-      "password": "123456"
-    },
-    {
-      "id": "6a0b",
-      "username": "sss",
-      "password": "sdfgh"
+      "id": "6c1d",
+      "name": "sainath",
+      "email": "wankh@gmail.com",
+      "phoneNumber": "8766775336",
+      "subject": "hiii",
+      "message": "sadfghjkjhgf"
     }
   ],
   "Signup": [
@@ -81,6 +57,15 @@
       "phone": "7411472170",
       "username": "vijay__0411",
       "password": "vijay123"
+    },
+    {
+      "id": "e9b9",
+      "firstName": "sai",
+      "lastName": "patil",
+      "email": "saip@gmail.com",
+      "phone": "8766775336",
+      "username": "sai1431@",
+      "password": "sai1431@"
     }
   ]
 }

@@ -7,11 +7,13 @@ import cp from '../assets/TutorialsIMG/c.jpeg'
 import rc from '../assets/TutorialsIMG/react.jpeg'
 import ja from '../assets/TutorialsIMG/java.jpeg'  // fixed
 import cc from '../assets/TutorialsIMG/ccc.jpeg'
+import Navigation from '../Component/Navigation'
 
 
 function Tutorials() {
   return (
     <>
+      <Navigation/>
       <section className="py-5" style={{ background: "#071019" }}>
         <div className="container">
           <h2 className="text-center text-white fw-bold mb-5">Tutorials</h2>

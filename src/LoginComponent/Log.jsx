@@ -1,18 +1,30 @@
 import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Link, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function Log() {
+  const navigate = useNavigate();
   const { register, handleSubmit, reset,formState: { errors }} = useForm();
 
-  function dataSend(data)
+  function dataSend(loginUser)
   {
-    axios.post('http://localhost:5001/Login',data).then((res)=>{
+    axios.get('http://localhost:5001/Signup').then((res)=>{
       // console.log(res)
-        if(res.status===201)
+        if(res.status===200)
         {
-          console.log(res.data);
-          reset()
+          // console.log(res.data)
+          const user = res.data.find((registeredUser)=> (registeredUser.username === loginUser.username) && (registeredUser.password === loginUser.password))
+          if(!user){
+            console.log(`${loginUser.username} is not found.`)
+
+          }else{
+            navigate('/home')
+          }
+
+          
+
           
         }
     }).catch((errors)=>{
@@ -49,7 +61,7 @@ function Log() {
             {/* Button */}
             <button
               type="submit"
-              className="btn w-100 py-2"
+              className="btn w-100 py-2 mb-3"
               style={{
                 backgroundColor: "#10151c",
                 border: "1px solid #222a39",
@@ -59,6 +71,8 @@ function Log() {
             >
               Login
             </button>
+
+            <Link to='/sign-up' className="text-center text-decoration-none ">Create Account</Link>
           </form>
         </div>
       </div>
